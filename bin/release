@@ -4,5 +4,5 @@ set -e
 cat << EOF
 ---
 default_process_types:
-  web: cd $1; make start
+  web: cd $1; sudo make start
 EOF

@@ -3,5 +3,5 @@ set -e
 
 cd $1
 [ -f ./configure ] && ./configure
-make
-make install
+sudo make
+sudo make install
